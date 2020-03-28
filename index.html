@@ -6,16 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Expandable Search Bar</title>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <div class="wrapper">
-    <input type="text" class='seach_box'>
-    <i class="fas fa-search"></i>
-    <i class="fas fa-times"></i>
+    <input type="text" class='search_box'>
+
+    <div class="search_button button">
+      <i id='search' class="fas fa-search"></i>
+    </div>
+    <div class="close_button button">
+      <i id='close' class="fas fa-times"></i>
+    </div>
+
+
+
   </div>
 
 </body>
+<script src='app.js'></script>
 
 </html>
