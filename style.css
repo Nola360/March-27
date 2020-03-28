@@ -25,8 +25,8 @@ body {
 }
 
 .button {
-  height: 30px;
-  width: 30px;
+  height: 100px;
+  width: 100px;
   background: silver;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@ body {
 
 
 .search_box.active {
-  width: 200px;
+  width: 300px;
   
 }
 
