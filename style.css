@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Montserrat", 'Open Sans';
 }
 
 body {
@@ -11,10 +13,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* transform: translate(-50%,-50%); */
 }
 
 .wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* width: 0; */
 }
 
 .button {
@@ -24,19 +31,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
   
 }
 
+
 .search_box {
-  display: none;
-  width: 0;
   outline: none;
+  font-family: 'Open Sans';
+  font-size: 20px;
   transition: width 2s ease-in-out;
+  border:none;
+  width: 0;
+  height: 30px;
 }
 
+
+
 .search_box.active {
-  width: 100px;
+  width: 200px;
+  
 }
 
 .search_button.active {
@@ -48,5 +61,5 @@ body {
 }
 
 .close_button.active {
-  display: block;
+  display: flex;
 }
